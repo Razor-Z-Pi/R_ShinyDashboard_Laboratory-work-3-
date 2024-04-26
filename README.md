@@ -1,10 +1,10 @@
 # R_ShinyDashboard_Laboratory-work-4
 Лабораторная работа №4 – Построение веб-приложений с помощью Shiny Dashboard / Lab work #4 - Building web applications with Shiny Dashboard
 ______
-Цель работы: познакомиться с технологией создания интерактивных веб-приложений с помощью пакета shinydashboard.
+Цель работы: познакомиться с технологией создания интерактивных веб-приложений с помощью пакета shinydashboard. /
 Purpose of work: to get acquainted with the technology of creating interactive web applications with the help of shinydashboard package.
 ______
-Shiny Dashboard представляет технологию создания интерактивных панелей. Пользовательский интерфейс Shiny Dashboard состоит из трех компонентов: header, sidebar и body.
+Shiny Dashboard представляет технологию создания интерактивных панелей. Пользовательский интерфейс Shiny Dashboard состоит из трех компонентов: header, sidebar и body. /
 Shiny Dashboard is a technology for creating interactive panels. The Shiny Dashboard user interface consists of three components: header, sidebar and body.
 ```R
 library(shinydashboard)
@@ -16,7 +16,7 @@ server <- function(input, output) {}
 shinyApp(ui, server)
 ```
 Для создания нового Shiny Dashboard необходимо определить компоненты интерфейса (функции: dashboardHeader(), dashboardSidebar(), dashboardBody()) и переместить их в пользовательский интерфейс приложения с использованием функции dashboardPage(). 
-Работа с серверной частью аналогична работе в стандартных Shiny приложениях.
+Работа с серверной частью аналогична работе в стандартных Shiny приложениях. / 
 To create a new Shiny Dashboard it is necessary to define interface components (functions: dashboardHeader(), dashboardSidebar(), dashboardBody()) and move them to the user interface of the application using the dashboardPage() function. 
 The work with the server part is similar to the work in standard Shiny applications.
 ____
